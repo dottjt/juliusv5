@@ -11,132 +11,81 @@
         <h2 class="homepage__hero__title__secondary">"Obscenely bright colours are fantastic."</h2> <!-- Pick your <span class="poison">poison</span>. Drink your <span class="project">project</span> -->
       </div>
 
-      <div class="tech__container">
+      <div class="homepage__section">
+        <h2 class="homepage__section__title">About me</h2>
+        <p>I've been a self-taught programmer since 2015.</p>
+        <p>I come from a strong background of sales, marketing, copywriting and </p>
+        <p>I prefer pure, composable functions. (Javascript desperately needs a pipe operator)</p>
+        <p>I believe learning new API's and languages is quicker than trying to retrofit existing solutions.</p>
+      </div>
 
-        {{/*  REACT + REDUX  */}}
-        <div class="tech__section">
-          <div class="tech__section__left">
-            <h2 class="tech__title">React + Redux</h2>
-            <p class="tech__description">
-              A parody of functional programming. 
-            </p>
-            {{/*  <p class="tech__recommendation">
-              Pros: It's not Angular.
-            </p>
-            <p class="tech__recommendation">
-              Cons: Verbose like thick tar.
-            </p>  */}}
-
-          </div>
-
-          <div class="tech__section__right">
-            <ul class="tech__project__container">
-              <li class="tech__project__item">Character Jump</li>
-              <li class="tech__project__item">Learning Schedule</li>
-            </ul>
-          </div>
-        </div>
+      <div class="homepage__section">
+        <h2 class="homepage__section__title">Personality</h2>
+      </div>
 
 
-        {{/*  REACT + APOLLO  */}}
-        <div class="tech__section">
-          <div class="tech__section__left">
-            <h2 class="tech__title">React + Apollo</h2>
-            <p class="tech__description">
-              Dream team without the team. 
-            </p>
-            {{/*  <p class="tech__recommendation">
-              Pros: Fluent state management.
-            </p>
-            <p class="tech__recommendation">
-              Cons: Do you not like client-side documentation?
-            </p>  */}}
-          </div>
+      <div class="homepage__section">
+        <h2 class="homepage__section__title">Stacks</h2>
 
-          <div class="tech__section__right">
-            <ul class="tech__project__container">
-              <li class="tech__project__item">Watashi Engine</li>
-            </ul>
-          </div>
-        </div>
-          
-        {{/*  ELM  */}}
-        <div class="tech__section">
-          <div class="tech__section__left">
-            <h2 class="tech__title">Elm</h2>
-            <p class="tech__description">
-              React + V8 turbo.
-            </p>
-            {{/*  <p class="tech__recommendation">
-              Pros: Super fast development time.
-            </p>
-            <p class="tech__recommendation">
-              Cons: Small community.
-            </p>  */}}
-          </div>
+        <div class="homepage__section__stack">
 
-          <div class="tech__section__right">
-            <ul class="tech__project__container">
-              <li class="tech__project__item">Awful CMS</li>
-              <li class="tech__project__item">Awful Christmas</li>
-            </ul>
-          </div>
-        </div>
-          
-  
-        {{/*  Phoenix Framework  */}}
-        <div class="tech__section">
-          <div class="tech__section__left">
-            <h2 class="tech__title">Phoenix Framework</h2>
-            <p class="tech__description">
-              Ruby on Rails with a crack problem.
-            </p>
-            {{/*  <p class="tech__recommendation">
-              Pros: Fast. Secure. Awesome.
-            </p>
-            <p class="tech__recommendation">
-              Cons: I know where you live, kiddo.
-            </p>  */}}
-          </div>
+          <h3>Client Frameworks</h3>
+          <p>For large commercial applications I recommend using <span>React</span> as a front-end, along with TypeScript.</p>
 
-          <div class="tech__section__right">
-            <ul class="tech__project__container">
-              <li class="tech__project__item">Awful CMS</li>
-              <li class="tech__project__item">Awful Christmas</li>
-              <li class="tech__project__item">Better Image Reference</li>
-            </ul>
-          </div>
-        </div>
+          <p><span>TypeScript</span> is a must with React. I can't think of a single good reason not to use it, even with existing projects.</p>
+          <p>For small teams I recommend using <span>Elm</span>. It allows you to build the same thing in half the time. You get type safety + state management baked in for free and your app will run much faster.</p>
+          <p>I'd even recommend Elm for large commercial projects, but you'd never convince management or even senior staff entrenched in their old ways.</p>
+
+          <h3>State management</h3>
+          <p>I much prefer using <span>Apollo</span> over <span>Redux</span>.</p>
+          <p>Redux boilerplate is a huge productivity killer, and Apollo provides the same clean uni-directional data flow at a fraction of the code.</p>
+
+          {{/*  <h3>Server Side Rendering</h3>  */}}
   
 
-        {{/*  Hugo  */}}
-        <div class="tech__section">
-          <div class="tech__section__left">
-            <h2 class="tech__title">Hugo</h2>
-            <p class="tech__description">
-              A static site generator for everyone.
-            </p>
-            {{/*  <p class="tech__recommendation">
-              Pros: I love it.
-            </p>
-            <p class="tech__recommendation">
-              Cons: And I know you will too.
-            </p>  */}}
-          </div>
-
-          <div class="tech__section__right">
-            <ul class="tech__project__container">
-                
-
-              <li class="tech__project__item">NeverFap Deluxe</li>
-              <li class="tech__project__item">Awful CMS</li>
-              <li class="tech__project__item">Awful Christmas</li>
-              <li class="tech__project__item">Analogies</li>
-            </ul>
-          </div>
         </div>
-          
-      </div> <!-- End of footer -->
+
+        <div class="homepage__section__stack">
+          <h3>Server Frameworks</h3>
+          <p>Node.js and Elixir satisfy everything you could possibly need for a backend.</p>
+          <p>Meteor.js is great for building quick MVP projects, especially if you need real-time functionality.</p>
+          <p>Phoenix Framework is also amazing for achieving the same thing. Difference being that your project will actually scale and you won't have to rebuild it again within a few years (at the cost of taking a little bit more time to develop).</p>
+          <p>Express.js is average at best. Feathers.js is a good alternative (it's built upon Express.js) that provides real-time functionality + some great services. Nest.js is great for building scalable APIs.</p>
+
+          <p>There is also the incredible Parse Server self-hosted BAAS (built on node.js) which is what I primarily use to build my backends. It comes baked with so much functionality, it really is a huge time saver.</p>
+
+
+          <h3>GraphQL</h3>
+          <p>In terms of GraphQL servers, Prisma is amazing BAAS if you have the money. graphql-yoga is generally my go-to.</p>
+
+          <h3>Web Infrastructure</h3>
+          <p>To be quite frank, AWS is almost always overkill.</p>
+          <p>In most cases, you can avoid having to use AWS if you use the right tech to begin with (Elixir for concurrent connections etc.)</p>
+          <p>In most cases, a simple VPS via Dropbox is going to be more than enough, and you'll save a bucketload of money.</p>
+          <p>Unless of course you're dripping in investor money and </p>
+          <p></p>
+
+        </div>
+      
+        <div class="">
+
+        </div>
+
+        <h3>Mobile</h3>
+        <p>For cross-platform mobile applications</p>
+
+        <p>Bitrise is pretty good. </p>
+
+        <div class="homepage__section__stack">
+
+        </div>
+      </div>
+
+
+
+        <h3>Web Services</h3>
+
+
       <div class="footer">
 
       </div>
