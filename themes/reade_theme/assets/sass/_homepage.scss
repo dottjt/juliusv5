@@ -38,7 +38,10 @@
   max-width: 34em;
   margin-top: 6rem;
 
-  // border: 2px solid black;
+  h2 {
+    // border-bottom: 2px solid #eee;
+
+  }
 
   .homepage__section__title {
   }
@@ -58,11 +61,88 @@
   }
 }
 
+.homepage__select {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  border-bottom: 4px solid #eee;
+  
+  .homepage__select__button {
+    padding: 1rem;
+    cursor: pointer;
+    transition: .15s ease-out;
+  }
+
+  .homepage__select__button--select {
+    border-bottom: 3px solid cyan;
+  }
+
+  .homepage__select__button:hover {
+    background: rgba(255,46,182,1);
+    color: cyan;
+  }
+}
+
+#projects__block, #interests__block, #personality__block, #other__block {
+  display: none;
+}
+
+.homepage__select__title {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.homepage__project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 34em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  padding: 1rem;
+  transition: .15s ease-out;
+
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 100;
+    transition: .15s ease-out;
+  }
+
+  h4 {
+    color: #777;
+    font-size: .875rem;
+    margin-bottom: .25rem;
+    transition: .15s ease-out;
+  }
+}
+
+.homepage__project:hover {
+  background: rgba(255,46,182,1);
+}
+
+.homepage__project:hover h2 {
+  color: white;
+}
+
+.homepage__project:hover h4 {
+  color: white;
+}
+
+
 .tech {
   // color: rgba(255,46,182,1);
   text-decoration-line: underline;
   text-decoration-color: rgba(255,46,182,1);
   border-bottom: 1px solid cyan;
+  transition: color .15s ease-in;
+}
+
+.tech:hover {
+  color: #4e4bec;
 }
 
 @media screen and (min-width: 420px) {
