@@ -129,6 +129,11 @@
     margin-bottom: .25rem;
     transition: .15s ease-out;
   }
+
+  .homepage__project__tech__list {
+    color: white;
+    visibility: hidden;
+  }
 }
 
 .homepage__project:hover {
@@ -142,6 +147,13 @@
 .homepage__project:hover h4 {
   color: white;
 }
+
+.homepage__project:hover .homepage__project__tech__list {
+  visibility: visible;
+}
+
+
+
 
 
 .tech {
