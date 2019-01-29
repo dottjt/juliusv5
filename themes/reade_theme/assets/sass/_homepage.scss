@@ -1,6 +1,6 @@
 .homepage__content {
-  margin-top: 2rem;
-  margin-left: 1rem;
+  margin: 1rem!important;
+  margin-top: 3rem!important;
 }
 
 .homepage__hero {
@@ -33,9 +33,9 @@
 .homepage__section {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 34em;
-  margin-top: 6rem;
+  width: 284px;
+  
+  margin-top: 3rem;
 
   h2 {
     // border-bottom: 2px solid #eee;
@@ -59,7 +59,7 @@
 .homepage__links {
   margin-top: 1rem;
   display: flex;
-  width: 400px;
+  width: 200px;
 
   a {
     text-decoration-line: underline;
@@ -103,11 +103,13 @@
   font-weight: bold;
 }
 
+.homepage__select__title--projects {
+  margin-bottom: 2rem;
+}
 
 .homepage__project {
   display: flex;
   flex-direction: column;
-  width: 100%;
   max-width: 34em;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -155,11 +157,22 @@
 }
 
 @media screen and (min-width: 420px) {
-
+  .homepage__content {
+    margin: 0!important;
+    width: initial;
+  }
+  .homepage__section {
+    width: 400px;
+  }
 }
 
 
 @media screen and (min-width: 768px) {
+
+  .homepage__select__title--projects {
+    margin-bottom: 5rem;
+  }
+    
   .homepage__content {
     margin-top: 4rem;
     margin-left: 4rem;
@@ -171,7 +184,10 @@
   }
 
   .homepage__section {
+    max-width: 34em;
     width: 600px;
+    margin-top: 6rem;
+
     .homepage__section__title__wrapper {
       .homepage__section__title {
 
