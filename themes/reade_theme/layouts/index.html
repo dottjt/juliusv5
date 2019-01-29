@@ -7,73 +7,74 @@
       <div class="homepage__hero">
         <h1 class="homepage__hero__title">Julius Reade.</h1>
       </div>
-      <div class="homepage__hero">
+      {{/*  <div class="homepage__hero">
         <h2 class="homepage__hero__title__secondary">"Obscenely bright colours are fantastic."</h2> <!-- Pick your <span class="poison">poison</span>. Drink your <span class="project">project</span> -->
-      </div>
+      </div>  */}}
 
       <div class="homepage__section">
         <h2 class="homepage__section__title">About me</h2>
-        <p>I've been a self-taught programmer since 2015.</p>
+        <p>I am a self-taught programmer (since 2015).</p>
         <p>I come from a strong background of sales, marketing, copywriting and entrepreneurship.</p>
+        <p>I love code.</p>
         {{/*  <p>My interests include self-development, learning more about mental health, learning Japanese,  </p>  */}}
+      </div>
+
+      <div class="homepage__links">
+        <a href="https://medium.com/@JuliusReade">Writing</a>
+        <a href="https://twitter.com/juliusreade">Twitter</a>
+        <a href="https://medium.com/dottjt">Github</a>
       </div>
 
 
       <div class="homepage__section">
-        <h2 class="homepage__section__title">Opinions</h2>
-        <p>For large commercial applications I recommend using <span>React</span> as a front-end, along with TypeScript.</p>
-        <p><span>TypeScript</span> is a must with React. I can't think of a single good reason not to use it, even with existing projects.</p>
-        <p>For small teams I recommend using <span>Elm</span>. It allows you to build the same thing in half the time. You get type safety + state management baked in for free and your app will run much faster.</p>
-        <p>I'd even recommend Elm for large commercial projects, but you'd never convince management or even senior staff entrenched in their old ways.</p>
+        <h2 class="homepage__section__title">Client</h2>
+        <p>For large commercial applications I recommend using <span class="tech">React</span> as a front-end. It has a large community, as well as a huge ecosystem of libraries and solutions.</p>
+        <p><span class="tech">TypeScript</span> is also a must. I can't think of a single good reason not to use it, even with existing Javascript projects.</p>
+        <p>For smaller teams I recommend using <span class="tech">Elm</span>. It allows you to build the same thing in half the time. Plus you get type safety and state management baked in for free.</p>
       </div>
       
       <div class="homepage__section">
         <h2>State management</h2>
-        <p>I much prefer using <span>Apollo</span> over <span>Redux</span>.</p>
-        <p>Redux boilerplate is a huge productivity killer, and Apollo provides the same clean uni-directional data flow at a fraction of the code.</p>
+        <p><span class="tech">Apollo</span> is my go-to solution. <span class="tech">GraphQL</span> truly is a no-brainer.</p>
+        <p>Although <span class="tech">Redux</span> is philosophically sound, the excessive boilerplate is a huge productivity killer. Apollo on the other hand provides the exact same clean uni-directional data flow, at a fraction of the code.</p>
       </div>
 
       <div class="homepage__section">
-        <h2>Server Frameworks</h2>
-        <p>Node.js and Elixir satisfy everything you could possibly need for a backend.</p>
-        <p>Meteor.js is great for building quick MVP projects, especially if you need real-time functionality.</p>
-        <p>Phoenix Framework is also amazing for achieving the same thing. Difference being that your project will actually scale and you won't have to rebuild it again within a few years (at the cost of taking a little bit more time to develop).</p>
-        <p>Express.js is average at best. Feathers.js is a good alternative (it's built upon Express.js) that provides real-time functionality + some great services. Nest.js is great for building scalable APIs.</p>
+        <h2>Server</h2>
+        <p><span class="tech">Node.js</span> and <span class="tech">Elixir</span> satisfy everything you could possibly need for an application backend.</p>
+        <p><span class="tech">Meteor.js</span> is great for building quick MVP projects, especially if you need real-time functionality. <span class="tech">Phoenix Framework</span> is also amazing for achieving the same thing. Both have their strengths and weaknesses.</p>
+        <p>Express.js is average at best. <span class="tech">Feathers.js</span> is a good alternative (that's built upon Express.js) that provides real-time functionality. <span class="tech">Nest.js</span> is also great for building scalable APIs.</p>
 
-        <p>There is also the incredible Parse Server self-hosted BAAS (built on node.js) which is what I primarily use to build my backends. It comes baked with so much functionality, it really is a huge time saver.</p>
+        <p>There is also the incredible <span class="tech">Parse Server</span> which I absolutely LOVE. It comes baked with so much functionality, including real-time data, user authentication, push notifications and so. much. more.</p>
       </div>
 
       <div class="homepage__section">
         <h2>GraphQL</h2>
-        <p>In terms of GraphQL servers, Prisma is amazing BAAS if you have the money. graphql-yoga is generally my go-to.</p>
+        <p><span class="tech">Prisma</span> is amazing if you some of that sweet VC money to spend.</p>
+        <p>On the other hand, <span class="tech">graphql-yoga</span> is generally my go-to GraphQL server setup.</p>
       </div>
 
       <div class="homepage__section">
-        <h2>Web Infrastructure</h2>
-        <p>To be quite frank, AWS is almost always overkill.</p>
-        <p>In most cases, you can avoid having to use AWS if you use the right tech to begin with (Elixir for concurrent connections etc.)</p>
-        <p>In most cases, a simple VPS via Dropbox is going to be more than enough, and you'll save a bucketload of money.</p>
-        <p>Unless of course you're dripping in investor money and </p>
+        <h2>DevOps</h2>
+        <p>To be quite frank, <span class="tech">AWS</span> is seriously overkill in 95% of cases. You can avoid having to use AWS if you use the right tech to begin with.</p>
+        <p>In most cases, a simple VPS via <span class="tech">Digital Ocean</span> is going to be more than enough, and you'll save a bucketload of $$$ in the process.</p>
+        <p><span class="tech">Docker</span> for container management, <span class="tech">Buildkite</span> for continuous CI and </p>
       </div>
 
-    
       <div class="homepage__section">
         <h3>Mobile</h3>
-        <p>For cross-platform mobile applications</p>
-
-        <p>Bitrise is pretty good. </p>
+        <p>For cross-platform mobile applications I recommend using <span class="tech">Flutter</span>.</p> 
+        <p>I've used <span class="tech">React Native</span> before, however it's a fraction as nice and even if you already know React, I'd bet you'd still come out ahead by learning Flutter.</p>
       </div>
 
-      </div>
+      
 
 
-
-        <h3>Web Services</h3>
-
+{{/*  
 
       <div class="footer">
 
-      </div>
+      </div>  */}}
     </div>
   </body>
 </html>
