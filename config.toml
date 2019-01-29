@@ -18,5 +18,6 @@ googleAnalytics = ""
   name = "Julius Reade"
 
 [params]
+  title = "Julius Reade."
   author = "Julius Reade"
   description = "An infrequent display of words and digital cacophony."
