@@ -5,7 +5,7 @@ theme = "reade_theme"
 
 enableRobotsTXT = true
 canonifyURLs = true
-googleAnalytics = ""
+googleAnalytics = "UA-85083093-1"
 
 [taxonomies]
   category = "categories"
