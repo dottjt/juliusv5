@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Julius Reade | I Build Digital Products</title>
+    <title>Categories on Julius Reade.</title>
     <link>https://juliusreade.com/categories/</link>
-    <description>Recent content in Categories on Julius Reade | I Build Digital Products</description>
+    <description>Recent content in Categories on Julius Reade.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://juliusreade.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://juliusreade.com/categories/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://juliusreade.com/categories/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
