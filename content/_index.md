@@ -1,6 +1,6 @@
 ---
   title: "Julius Reade."
-  description: "An infrequent display of words and digital cacophony. I also code, write and dream."
+  description: "An infrequent display of words and intellectual cacophony. I also build, deploy and maintain digital infrastructure."
   draft: false
 ---
 
