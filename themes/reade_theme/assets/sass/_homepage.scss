@@ -45,14 +45,6 @@
     display: flex;
     .homepage__section__title {
     }
-
-    // .homepage__section__title__logo {
-    //   position: relative;
-    //   right: -0.4rem;
-    //   top: 0.1rem;
-    //   width: 10px;
-    //   height: 10px;  
-    // }  
   }
 }
 
@@ -97,10 +89,22 @@
   display: none;
 }
 
-.homepage__select__title {
-  margin-top: 2rem;
-  font-size: 3rem;
-  font-weight: bold;
+.homepage__select__title__wrapper {
+  display: flex;
+
+  .homepage__select__title {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .homepage__select__title__logo {
+    position: relative;
+    right: -0.4rem;
+    top: 2rem;
+    width: 20px;
+    height: 20px;  
+  }  
 }
 
 .homepage__select__title--projects {

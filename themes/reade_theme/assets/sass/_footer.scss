@@ -6,4 +6,14 @@
 
   height: 9rem;
   width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  p {
+    position: relative;
+    color: white;
+    margin: 0.5rem;
+  }
 }
