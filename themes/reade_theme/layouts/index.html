@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  {{ partialCached "head.html" . }}
+  {{ partial "head.html" . }}
   <body>
     <div class="homepage__content">
       <div class="homepage__hero">
@@ -37,15 +37,15 @@
       </div>
 
       <span id="opinions__block">
-        {{ partialCached "opinions.html" . }}
+        {{ partial "opinions.html" . }}
       </span>
 
       <span id="projects__block">
-        {{ partialCached "projects.html" . }}
+        {{ partial "projects.html" . }}
       </span>
   
       <span id="interests__block">
-        {{ partialCached "interests.html" . }}
+        {{ partial "interests.html" . }}
       </span>
 
       {{/*  <span id="personality__block">
