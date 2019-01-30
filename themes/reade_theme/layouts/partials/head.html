@@ -38,7 +38,6 @@
   <link rel="stylesheet" href="/css/normalize.css">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Parisienne|Montserrat|Noto+Sans" rel="stylesheet">
 
   <!-- Open Graph Schema -->
   {{ if .IsPage }}
@@ -80,7 +79,7 @@
           "name": "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}",
           "author": {
             "@type": "Person",
-            "name": "{{ .Site.Params.author }}"
+            "name": "{{ .Site.Author.name }}"
           },
           "description": "{{ .Site.Params.description }}",
         }
@@ -92,5 +91,7 @@
   {{ template "_internal/google_analytics_async.html" . }}
   {{ template "_internal/opengraph.html" . }} <!-- Is this something I need ?-->
   {{ template "_internal/twitter_cards.html" . }}
+
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
 </head>
 
