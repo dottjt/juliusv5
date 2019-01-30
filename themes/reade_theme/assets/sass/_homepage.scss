@@ -49,11 +49,15 @@
 }
 
 .homepage__links {
-  margin-top: 1rem;
   display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 1rem;
   width: 200px;
 
   a {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-decoration-line: underline;
     text-decoration-color: rgba(255,46,182,1);
     border-bottom: 1px solid cyan;  
