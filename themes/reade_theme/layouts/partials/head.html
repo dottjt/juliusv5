@@ -5,7 +5,7 @@
   {{ .Hugo.Generator }}
 
   <meta name="author" content="Julius Reade">
-  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}"/>
+  <meta name="description" content="{{ .Description }}"/>
   <meta name="robots" content="noodp"/>
   <link rel="canonical" href="{{ .Permalink }}" />
 
@@ -51,13 +51,9 @@
                 "@id": "{{ .Site.BaseURL }}"
           },
           "articleSection" : "{{ .Section }}",
-          "name" : "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}",
-          "headline" : "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}",
-          {{ if .IsHome -}}
-            "description" : "{{ .Site.Params.description }}", 
-          {{- else -}}
-            "description" : "{{ default .Summary .Description }}",
-          {{- end }}
+          "name" : "{{ .Title }}",
+          "headline" : "{{ .Title }}",
+          "description" : "{{ .Description }}", 
           "inLanguage" : "en-US",
           "author" : "{{ .Site.Author.name }}",
           "creator" : "{{ .Site.Author.name }}",
@@ -76,12 +72,12 @@
           "@context": "http://schema.org",
           "@type": "WebSite",
           "url": "{{ .Permalink }}",
-          "name": "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}",
+          "name": "{{ .Title }}",
           "author": {
             "@type": "Person",
             "name": "{{ .Site.Author.name }}"
           },
-          "description": "{{ .Site.Params.description }}",
+          "description": "{{ .Description }}",
         }
       {{ end }}
     </script>
@@ -92,6 +88,6 @@
   {{ template "_internal/opengraph.html" . }} <!-- Is this something I need ?-->
   {{ template "_internal/twitter_cards.html" . }}
 
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+  <title>{{ .Title }}</title>
 </head>
 
