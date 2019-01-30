@@ -36,49 +36,63 @@
 
   
   
-  <link rel="stylesheet" href="https://juliusreade.com/sass/index.min.bfe8e80efab0d326676bd8ee74ccac8b0446aa37e7f6c3cc0fd745bb8ff1081b.css">
+  <link rel="stylesheet" href="https://juliusreade.com/sass/index.min.0c88229d30172b96edb19364746231bced3f3594132f3ea44b0b98340bb1326b.css">
   <link rel="stylesheet" href="https://juliusreade.com/css/normalize.css">
 
   
-  <link href="https://fonts.googleapis.com/css?family=Parisienne|Montserrat|Noto+Sans" rel="stylesheet">
 
   
   
 
   
   
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-85083093-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
   <meta property="og:title" content="Categories" />
-<meta property="og:description" content="An infrequent display of words and digital cacophony." />
+<meta property="og:description" content="An infrequent display of words and digital cacophony. I also code, write and dream." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://juliusreade.com/categories/" />
 <meta property="og:updated_time" content="2018-01-07T00:00:00&#43;00:00"/>
  
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="An infrequent display of words and digital cacophony."/>
+<meta name="twitter:description" content="An infrequent display of words and digital cacophony. I also code, write and dream."/>
 
+
+  <title>Categories</title>
 </head>
 
 
   <body>
     <div class="homepage__content">
-      
       <div class="homepage__hero">
         <a href="https://juliusreade.com/"><h1 class="homepage__hero__title">Julius Reade.</h1></a>
         
       </div>
 
       <div class="homepage__section">
-        <h2 class="homepage__section__title">About me</h2>
-        
+        <div class="homepage__section__title__wrapper">
+          <h2 class="homepage__section__title">About me</h2>
+        </div>
+        <p>I am a software consultant.</p>
         <p>I have been a self-taught programmer since 2015.</p>
         <p>I come from a strong background of sales, marketing, copywriting and entrepreneurship.</p>
-        <p>I love code.</p>
+        
         
       </div>
 
       <div class="homepage__links">
         <a href="https://medium.com/@JuliusReade">Writing</a>
+        <a href="https://www.linkedin.com/in/juliusreade/">LinkedIn</a>
         <a href="https://twitter.com/juliusreade">Twitter</a>
         <a href="https://medium.com/dottjt">Github</a>
       </div>
@@ -95,66 +109,81 @@
 
       <span id="opinions__block">
         
-<h1 class="homepage__select__title">Opinions</h1>
+<div class="homepage__select__title__wrapper">
+  <h1 class="homepage__select__title">Opinions</h1>
+  <img class="homepage__select__title__logo" src="https://juliusreade.com/images/logo.png"/>    
+</div>
 
 <div class="homepage__section">
   <h2 class="homepage__section__title">Client</h2>
-  <p>For large commercial applications I recommend using <span class="tech">React</span> as a front-end. It has a large community, as well as a huge ecosystem of libraries and solutions.</p>
-  <p><span class="tech">TypeScript</span> is also a must. I can't think of a single good reason not to use it, even with existing Javascript projects.</p>
-  <p>For smaller teams I recommend using <span class="tech">Elm</span>. It allows you to build the same thing in half the time. Plus you get Algebraic Data Types, static types and state management baked in for free.</p>
+  <p>For large commercial applications I recommend using <a href="https://reactjs.org/" class="tech">React</a> as a front-end. It has a large community, as well as a huge ecosystem of libraries and solutions.</p>
+  <p><a href="https://www.typescriptlang.org/" class="tech">TypeScript</a> is also a must. I can't think of a single good reason not to use it, even with existing JavaScript projects.</p>
+  <p>For smaller teams I recommend using <a href="https://elm-lang.org/" class="tech">Elm</a>. It allows you to build the same thing in half the time. Plus you get Algebraic Data Types, type safety and state management baked in for free.</p>
 </div>
 
 <div class="homepage__section">
   <h2>State management</h2>
-  <p><span class="tech">Apollo</span> is my go-to solution. <span class="tech">GraphQL</span> truly is a no-brainer.</p>
-  <p><span class="tech">Redux</span> is philosophically sound, however the excessive boilerplate is a huge productivity killer. In addition, Apollo offers the exact same uni-directional data flow as Redux, at a fraction of the code.</p>
+  <p><a href="https://www.apollographql.com/" class="tech">Apollo</a> is my go-to solution. <a href="https://graphql.org/" class="tech">GraphQL</a> truly is a no-brainer.</p>
+  <p><a href="https://redux.js.org/" class="tech">Redux</a> is philosophically sound, however the excessive boilerplate is a huge productivity killer. In addition, Apollo offers the exact same uni-directional data flow as Redux, at a fraction of the code.</p>
+  <p><a href="https://www.prisma.io/" class="tech">Prisma</a> is amazing as a GraphQL backend service, especially if you have some of that sweet VC money to spend. Otherwise <a href="https://github.com/prisma/graphql-yoga" class="tech">graphql-yoga</a> is my go-to GraphQL server setup (built upon Node.js).</p>
 </div>
 
 <div class="homepage__section">
   <h2>Server</h2>
-  <p><span class="tech">Node.js</span> and <span class="tech">Elixir</span> satisfy everything you could possibly need for an application backend.</p>
-  <p><span class="tech">Meteor.js</span> is great for building quick MVP projects, especially if you need real-time functionality. <span class="tech">Phoenix Framework</span> is also amazing for achieving the same thing. Both have their strengths and weaknesses.</p>
-  <p>Express.js is average at best. <span class="tech">Feathers.js</span> is a good alternative (that's built upon Express.js) that provides real-time functionality. <span class="tech">Nest.js</span> is also great for building scalable APIs.</p>
-  <p>There is also the incredible <span class="tech">Parse Server</span> which I absolutely LOVE. It comes baked with so much functionality, including real-time data, user authentication, push notifications and so. much. more.</p>
-  <p><span class="tech">Prisma</span> is amazing as a GraphQL backend if you have some of that sweet VC money to spend, otherwise <span class="tech">graphql-yoga</span> is generally my go-to GraphQL server setup.</p>
+  <p><a href="https://nodejs.org/" class="tech">Node.js</a> and <a href="https://elixir-lang.org/" class="tech">Elixir</a> satisfy everything you could possibly want from an application backend.</p>
+  <p><a href="https://www.meteor.com/" class="tech">Meteor.js</a> is great for building quick MVP projects, especially if you need real-time functionality. <a href="https://phoenixframework.org/" class="tech">Phoenix Framework</a> is also amazing for achieving the exact same thing. Both have their strengths and weaknesses.</p>
+  <p>Express.js is average at best. <a href="https://feathersjs.com/" class="tech">Feathers.js</a> is a great alternative (that's built upon Express.js) and provides real-time functionality. <a href="https://nestjs.com/" class="tech">Nest.js</a> is great for building scalable APIs.</p>
+  <p>There is also the fabulous <a href="https://parseplatform.org/" class="tech">Parse Server</a> which I absolutely LOVE. It comes baked with so much functionality, including real-time data, user authentication, push notifications and so. much. more.</p>
+</div>
+
+<div class="homepage__section">
+  <h2>Databases</h2>
+  <p><a href="https://www.postgresql.org/" class="tech">PostgreSQL</a> if you want to do it right.</p>
+  <p><a href="https://www.mongodb.com/" class="tech">MongoDB</a> if you're walking down the street and a stranger forces a gun to your head, only to find yourself compelled to make a seemingly irrational decision, as the ensuing panic startles you into uncontrollable mania.</p>
+  <p>...and for everything else, there's Mastercard.</p>
 </div>
 
 <div class="homepage__section">
   <h2>DevOps</h2>
-  <p>To be quite frank, <span class="tech">AWS</span> is seriously overkill in 95% of cases. You can avoid having to use AWS if you use the right tech to begin with.</p>
-  <p>In most cases, a simple VPS via <span class="tech">Digital Ocean</span> is going to be more than enough, and you'll save a bucketload of $$$ in the process.</p>
-  <p><span class="tech">Github</span> for git management, <span class="tech">Docker</span> for application container management, <span class="tech">Buildkite</span> for continuous CI and <span class="tech">Terraform</span> for server configuration/setup.</p>
+  <p>To be quite frank, <a href="https://aws.amazon.com/" class="tech">AWS</a> is overkill in 95% of cases. In most cases, you can avoid having to rely on AWS if you use the right tech to begin with.</p>
+  <p>A simple VPS via <a href="https://www.digitalocean.com/" class="tech">Digital Ocean</a> is going to be more than enough for a majority of clients, and you'll save a bucketload of time and $$$ in the process. <a href="https://www.ubuntu.com/" class="tech">Ubuntu</a>, <a href="www.zsh.org/" class="tech">Zsh</a> and <a href="https://nginx.org/" class="tech">Nginx</a> are your friends.</p>
+  <p><a href="https://github.com/" class="tech">Github</a> for version control, <a href="https://www.docker.com/" class="tech">Docker</a> for application container management, <a href="https://buildkite.com/" class="tech">Buildkite</a> for continuous CI and <a href="https://www.terraform.io/" class="tech">Terraform</a> for server configuration/setup.</p>
 </div>
 
 <div class="homepage__section">
   <h2>Content</h2>
-  <p>For blogs and static websites I used <span class="tech">Hugo</span> static site generator along with <span class="tech">Netlify</span> for deployment. If you need CMS functionality, then <span class="tech">Forestry.io</span> will do you well.</p>
-  <p>I absolutely loath Wordpress. Please do not go there.</p>
+  <p>For general blogs and basic websites I use <a href="https://gohugo.io/" class="tech">Hugo</a> (which is what this website is built upon) along with <a href="https://www.netlify.com/" class="tech">Netlify</a> for the most delightful deployment process of your lifetime. If you require CMS functionality, then tacking on <a href="https://forestry.io/" class="tech">Forestry.io</a> will serve you well.</p>
+  <p>I absolutely loath Wordpress. You'd derive more enjoyment from chewing glass.</p>
 </div>
 
 <div class="homepage__section">
   <h2>Mobile</h2>
-  <p>For cross-platform mobile applications I recommend using <span class="tech">Flutter</span>.</p> 
-  <p><span class="tech">React Native</span> wasn't necessarily the worst experience in the world, however it's a fraction as nice as Flutter and even if you already know React, I bet you'd still come out ahead learning Flutter.</p>
-  <p><span class="tech">One Signal</span> is great for push/mobile notifications, <span class="tech">Fastlane</span> for Continuous Integration and <span class="tech">Bitrise</span> for continuous deplyoment.</p>
+  <p>For cross-platform mobile applications I recommend using <a href="https://flutter.io/" class="tech">Flutter</a>.</p> 
+  <p><a href="https://facebook.github.io/react-native/" class="tech">React Native</a> isn't necessarily the worst experience in the world, however it's a fraction as nice as Flutter. Even if you're already fluent with React, I'd bet you'd still come out ahead learning Flutter, especially if you've never built a mobile application before.</p>
+  <p><a href="https://onesignal.com/" class="tech">One Signal</a> is great for push/mobile notifications, <a href="https://fastlane.tools/" class="tech">Fastlane</a> for Continuous Integration and <a href="https://www.bitrise.io/" class="tech">Bitrise</a> for Continuous Deployment.</p>
 </div>
 
 <div class="homepage__section">
   <h2>Keyboard</h2>
-  <p>I use the <span class="tech">Colemak</span> keyboard layout.</p> 
-  <p>I know. <b>sigh</b></p>
+  <p>I use the <a href="https://colemak.com/" class="tech">Colemak</a> keyboard layout. I've switched my CapsLock key with Ctrl, and I even sometimes use <a href="https://www.vim.org/" class="tech">Vim</a>.</p> 
+  <p>Please don't take my lunch money.</p>
 </div>
   
-
       </span>
 
       <span id="projects__block">
-        <h1 class="homepage__select__title" style="margin-bottom: 5rem;">Projects</h1>
-
+        <div class="homepage__select__title__wrapper">
+  <h1 class="homepage__select__title">Projects</h1>
+  <img class="homepage__select__title__logo" src="https://juliusreade.com/images/logo.png"/>    
+</div>
+  
 <a href="https://github.com/dottjt/juliusv5">
   <div class="homepage__project">
     <h4>2019</h4>
     <h2>Julius Reade V5</h2>
+    <div class="homepage__project__tech__list">
+      <span>Hugo</span>
+    </div>
   </div>
 </a>
 
@@ -162,27 +191,39 @@
   <div class="homepage__project">
     <h4>2019</h4>
     <h2>NeverFap Deluxe</h2>
-  </div>      
+    <div class="homepage__project__tech__list">
+      <span>Hugo, Flutter</span>
+    </div>
+  </div>
 </a>
 
 <a href="https://github.com/dottjt/watashi-engine">
   <div class="homepage__project">
     <h4>2018</h4>
     <h2>Watashi Engine</h2>
-  </div>      
+    <div class="homepage__project__tech__list">
+      <span>React, Apollo, graphql-yoga</span>
+    </div>
+  </div>
 </a>
 
 <a href="https://github.com/dottjt/juliusv4">
   <div class="homepage__project">
     <h4>2018</h4>
     <h2>Julius Reade V4</h2>
-  </div>     
+    <div class="homepage__project__tech__list">
+      <span>Hugo</span>
+    </div>
+  </div>
 </a>
 
 <a href="https://github.com/dottjt/analogies">
   <div class="homepage__project">
     <h4>2018</h4>
     <h2>Analogies.io</h2>
+    <div class="homepage__project__tech__list">
+      <span>React, MobX, PIXI.js</span>
+    </div>
   </div>      
 </a>
 
@@ -190,6 +231,9 @@
   <div class="homepage__project">
     <h4>2018</h4>
     <h2>Character Jump</h2>
+    <div class="homepage__project__tech__list">
+      <span>React, Redux, Node.js</span>
+    </div>
   </div>      
 </a>
 
@@ -197,6 +241,9 @@
   <div class="homepage__project">
     <h4>2018</h4>
     <h2>Broccoli & Co.</h2>
+    <div class="homepage__project__tech__list">
+      <span>React</span>
+    </div>
   </div>      
 </a>
 
@@ -204,6 +251,9 @@
   <div class="homepage__project">
     <h4>2018</h4>
     <h2>Julius Reade V3</h2>
+    <div class="homepage__project__tech__list">
+      <span>Phoenix Framework</span>
+    </div>
   </div>     
 </a>
 
@@ -211,6 +261,9 @@
   <div class="homepage__project">
     <h4>2017</h4>
     <h2>Awful CMS</h2>
+    <div class="homepage__project__tech__list">
+      <span>Phoenix Framework, Elm</span>
+    </div>
   </div>   
 </a>
 
@@ -218,6 +271,9 @@
   <div class="homepage__project">
     <h4>2017</h4>
     <h2>Awful Christmas</h2>
+    <div class="homepage__project__tech__list">
+      <span>Phoenix Framework, Elm</span>
+    </div>  
   </div> 
 </a>
 
@@ -225,6 +281,9 @@
   <div class="homepage__project">
     <h4>2017</h4>
     <h2>Better Image Reference</h2>
+    <div class="homepage__project__tech__list">
+      <span>Phoenix Framework, Elm</span>
+    </div>
   </div>     
 </a>
 
@@ -232,6 +291,9 @@
   <div class="homepage__project">
     <h4>2017</h4>
     <h2>Learning Schedule</h2>
+    <div class="homepage__project__tech__list">
+      <span>React, Redux, Express.js</span>
+    </div>
   </div>     
 </a>
 
@@ -239,6 +301,9 @@
   <div class="homepage__project">
     <h4>2016</h4>
     <h2>Julius Reade V2</h2>
+    <div class="homepage__project__tech__list">
+      <span>Hugo</span>
+    </div>  
   </div>   
 </a>
 
@@ -246,26 +311,44 @@
   <div class="homepage__project">
     <h4>2016</h4>
     <h2>Julius Reade V1</h2>
+    <div class="homepage__project__tech__list">
+      <span>Pelican</span>
+    </div>  
   </div>   
 </a>
       </span>
   
       <span id="interests__block">
         
-<h1 class="homepage__select__title">Interests</h1>
+<div class="homepage__select__title__wrapper">
+  <h1 class="homepage__select__title">Interests</h1>
+  <img class="homepage__select__title__logo" src="https://juliusreade.com/images/logo.png"/>    
+</div>
+
+
 
 <div class="homepage__section">
   <h2 class="homepage__section__title">Language</h2>
-  <p>If I had unlimited money I'd spend all my time studying languages.</p>
-  <p>I'm currently learning <span class="tech">Japanese</span> and I absolutely love it. I've also seriously learnt <span class="tech">French</span> and <span class="tech">Chinese</span> in the past (I've spent most my life learning Chinese, and I absolutely hate the language).</p>
-</div>
+  <p>If I'd assumed an unlimited amount of money, I'd spend all my available time studying languages.</p>
+  <p>I'm currently learning <span class="tech">Japanese</span> and I absolutely love it. I've also seriously committed to learning <span class="tech">French</span> and <span class="tech">Chinese</span> in the past.</p>
+</div>  
 
 <div class="homepage__section">
-  <h2 class="homepage__section__title">Physical</h2>
-  <p>I do the Paleo diet. I intermittent fast. I take cold showers every night. I lift weights three times a week.</p>
-  <p>I'm that kind of guy.</p>
-</div>
+  <h2 class="homepage__section__title">Gaming</h2>
+  <p>It all started with Pajama Sam on the PC and I haven't stopped playing video games since.</p>
+  <p>The PS4 is usually what I play these days, picking up games as they come on the cheap, although I also go through various retro phases throughout the year.</p>
+  <p>I also can't wait for VR gaming to eventually become a thing. <b>*fingers crossed*</b></p>
+</div> 
+  
+<div class="homepage__section">
+  <h2 class="homepage__section__title">Business</h2>
+  <p>Although I absolutely love tinkering with code, I've always been a business guy at heart. The only reason I learnt code in the first place is so I could have full control of the product stack.</p>
+  <p>I genuinely enjoy the process of building online businesses with strong brands, and you may view an entire graveyard of them in my GitHub account.</p>
+  <p>One day I will hack the Millennial dream of maintaining a sustainable passive income over something I'm passionate about.</p>
+  <p>Never give up.</p>
 
+</div> 
+  
       </span>
 
       
@@ -347,8 +430,8 @@
       </script>
     </div>
 
-    <div class="footer">
-
+    <div class="footer" >
+      
     </div>
   </body>
 </html>
