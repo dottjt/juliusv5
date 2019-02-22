@@ -1,0 +1,5 @@
+Sitemap: https://juliusreade.com/sitemap.xml
+User-agent: *
+Disallow: /tags/
+Disallow: /categories/
+Allow: /
