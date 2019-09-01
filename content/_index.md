@@ -1,6 +1,6 @@
 ---
   title: "Julius Reade."
-  description: "An infrequent display of words and intellectual cacophony. I also build, deploy and maintain digital infrastructure."
+  description: "Software developer. Machine learning enthusiast. ฅ(＾・ω・＾ฅ)"
   draft: false
 ---
 

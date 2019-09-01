@@ -12,6 +12,12 @@
     display: inline-block;
 
     font-size: 2.3rem;
+
+    transition: 0.4s;
+  }
+
+  .homepage__hero__title:hover {
+    box-shadow: -10px 10px 0px 0px #ff2eb6;
   }
   
   .homepage__hero__title__secondary {
