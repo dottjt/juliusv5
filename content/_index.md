@@ -1,6 +1,6 @@
 ---
-  title: "Julius Reade."
-  description: "Software developer. Machine learning enthusiast. ฅ(＾・ω・＾ฅ)"
+  title: "Julius Reade"
+  description: "Software Developer. Melbourne, Australia. ฅ(＾・ω・＾ฅ)"
   draft: false
 ---
 

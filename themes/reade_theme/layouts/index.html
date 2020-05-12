@@ -12,10 +12,9 @@
         <div class="homepage__section__title__wrapper">
           <h2 class="homepage__section__title">About me</h2>
         </div>
-        <p>I am a software developer.</p>
-        <p>I have been a self-taught programmer since 2015.</p>
-        <p>I come from a strong background of sales, marketing, copywriting and entrepreneurship.</p>
-        <p>I hope to specialise in machine learning and data science.</p>
+        <p>I am an experienced software developer.</p>
+        <p>I have worked for a variety of creative agencies, startups and large companies.</p>
+        <p>I come from a strong background of sales, marketing and communications.</p>
         {{/*  <p>I love code.</p>  */}}
         {{/*  <p>My interests include self-development, learning more about mental health, learning Japanese,  </p>  */}}
       </div>
@@ -31,10 +30,10 @@
         <div class="homepage__select">
           <div id="opinions" class="homepage__select__button homepage__select__button--select">Opinions</div>
           <div id="projects" class="homepage__select__button">Projects</div>
-          <div id="interests" class="homepage__select__button">Interests</div>
+          {{/*  <div id="interests" class="homepage__select__button">Interests</div>  */}}
           {{/*  <div id="personality" class="homepage__select__button">Personality</div>  */}}
           {{/*  <div id="other" class="homepage__select__button">Other</div>  */}}
-        </div>      
+        </div>
       </div>
 
       <span id="opinions__block">
@@ -44,10 +43,10 @@
       <span id="projects__block">
         {{ partial "projects.html" . }}
       </span>
-  
+      {{/*
       <span id="interests__block">
         {{ partial "interests.html" . }}
-      </span>
+      </span>  */}}
 
       {{/*  <span id="personality__block">
         {{ partialCached "personality.html" . }}
@@ -56,22 +55,22 @@
       {{/*  <span id="other__block">
         {{ partialCached "other.html" . }}
       </span>  */}}
-      
+
 
       <script>
         var opinionsButton = document.querySelector('#opinions');
         var projectsButton = document.querySelector('#projects');
         var interestsButton = document.querySelector('#interests');
-        {{/*  var personalityButton = document.querySelector('#personality');  */}} 
+        {{/*  var personalityButton = document.querySelector('#personality');  */}}
         var otherButton = document.querySelector('#other');
 
         var opinionsBlock = document.querySelector('#opinions__block');
         var projectsBlock = document.querySelector('#projects__block');
         var interestsBlock = document.querySelector('#interests__block');
-        {{/*  var personalityBlock = document.querySelector('#personality__block');  */}} 
+        {{/*  var personalityBlock = document.querySelector('#personality__block');  */}}
         {{/*  var otherBlock = document.querySelector('#other__block');  */}}
 
-        opinionsButton.onclick = function(event) { 
+        opinionsButton.onclick = function(event) {
           opinionsBlock.style.display = 'block';
           projectsBlock.style.display = 'none';
           interestsBlock.style.display = 'none';
@@ -85,7 +84,7 @@
           {{/*  otherButton.style.borderBottom = 'none';  */}}
         }
 
-        projectsButton.onclick = function(event) { 
+        projectsButton.onclick = function(event) {
           opinionsBlock.style.display = 'none';
           projectsBlock.style.display = 'block';
           interestsBlock.style.display = 'none';
@@ -100,7 +99,7 @@
         }
 
 
-        interestsButton.onclick = function(event) { 
+        interestsButton.onclick = function(event) {
           opinionsBlock.style.display = 'none';
           projectsBlock.style.display = 'none';
           interestsBlock.style.display = 'block';
@@ -114,7 +113,7 @@
           {{/*  otherButton.style.borderBottom = 'none';  */}}
         }
 
-        personalityButton.onclick = function(event) { 
+        personalityButton.onclick = function(event) {
           opinionsBlock.style.display = 'none';
           projectsBlock.style.display = 'none';
           interestsBlock.style.display = 'none';
@@ -128,7 +127,7 @@
           {{/*  otherButton.style.borderBottom = 'none';  */}}
         }
 
-        {{/*  otherButton.onclick = function(event) { 
+        {{/*  otherButton.onclick = function(event) {
           opinionsBlock.style.display = 'none';
           projectsBlock.style.display = 'none';
           interestsBlock.style.display = 'none';

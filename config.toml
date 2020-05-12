@@ -1,6 +1,6 @@
 baseURL = "https://juliusreade.com/"
 languageCode = "en-us"
-title = "Julius Reade."
+title = "Julius Reade"
 theme = "reade_theme"
 
 enableRobotsTXT = true
@@ -9,6 +9,3 @@ googleAnalytics = "UA-85083093-1"
 
 [author]
   name = "Julius Reade"
-
-[params]
-  description = "I build, deploy and maintain digital infrastructure."
