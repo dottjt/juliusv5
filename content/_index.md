@@ -1,5 +1,5 @@
 ---
-  title: "Julius Reade"
+  title: "Julius Reade."
   description: "Software Developer. Melbourne, Australia. ฅ(＾・ω・＾ฅ)"
   draft: false
 ---
